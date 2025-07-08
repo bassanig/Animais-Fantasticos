@@ -1,20 +1,29 @@
+export default class ScrollSuave {
+  constructor(linksInternos) {
+    this.linksInternos = document.querySelectorAll(linksInternos);
+    this.scrollToSection = this.scrollToSection.bind(this); // Bind the method to the class instance
+  }
 
-export default function initScrollSuave() {
-    const linksInternos = document.querySelectorAll('[data-menu="suave"] a[href^="#"');
+  scrollToSection(event) {
+    event.preventDefault();
+    const href = event.currentTarget.getAttribute("href");
+    const section = document.querySelector(href);
 
-    function scrollToSection(event) {
-        event.preventDefault();
-        const href = event.currentTarget.getAttribute('href');
-        const section = document.querySelector(href);
-        console.log(href);
+    section.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
 
-        section.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start',
-        })
+  addEventListeners() {
+    this.linksInternos.forEach((item) => {
+      item.addEventListener("click", this.scrollToSection);
+    });
+  }
+
+  init() {
+    if (this.linksInternos.length) {
+      this.addEventListeners();
     }
-
-    linksInternos.forEach((item) => {
-        item.addEventListener('click', scrollToSection);
-    })
+  }
 }
