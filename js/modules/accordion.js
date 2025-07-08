@@ -4,9 +4,9 @@ export default function initAccordionList() {
         dts[0].classList.add('active')
         dts[0].nextElementSibling.classList.add('active')
 
-        function activeAccordion(event) {
-        this.nextElementSibling.classList.toggle('active');
-        this.classList.toggle('active');
+        function activeAccordion() {
+          this.nextElementSibling.classList.toggle('active');
+          this.classList.toggle('active');
         }
 
         dts.forEach((dt) => {
