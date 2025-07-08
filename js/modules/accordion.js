@@ -1,18 +1,24 @@
-export default function initAccordionList() {
-    const dts = document.querySelectorAll('.js-accordion dt');
-    if(dts.length) {
-        dts[0].classList.add('active')
-        dts[0].nextElementSibling.classList.add('active')
+export default class AccordionList {
+  constructor() {
+    this.dts = document.querySelectorAll(".js-accordion dt");
+    this.toggleAccordion = this.toggleAccordion.bind(this);
+  }
 
-        function activeAccordion(event) {
-        this.nextElementSibling.classList.toggle('active');
-        this.classList.toggle('active');
-        }
+  toggleAccordion(event) {
+    event.target.nextElementSibling.classList.toggle("active");
+    event.target.classList.toggle("active");
+  }
 
-        dts.forEach((dt) => {
-            dt.addEventListener('click', activeAccordion)
-        })
+  addEventListeners() {
+    this.dts.forEach((dt) => {
+      dt.addEventListener("click", this.toggleAccordion);
+    });
+  }
+
+  init() {
+    if (this.dts.length) {
+      this.addEventListeners();
     }
+    return this;
+  }
 }
-
-
