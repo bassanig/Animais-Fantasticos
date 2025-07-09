@@ -1,17 +1,17 @@
 export default class AccordionList {
-  constructor() {
-    this.dts = document.querySelectorAll(".js-accordion dt");
-    this.toggleAccordion = this.toggleAccordion.bind(this);
+  constructor(elements) {
+    this.dts = document.querySelectorAll(elements);
+    this.activeClass = "active";
   }
 
-  toggleAccordion(event) {
-    event.target.nextElementSibling.classList.toggle("active");
-    event.target.classList.toggle("active");
+  toggleAccordion(dt) {
+    dt.nextElementSibling.classList.toggle(this.activeClass);
+    dt.classList.toggle(this.activeClass);
   }
 
   addEventListeners() {
     this.dts.forEach((dt) => {
-      dt.addEventListener("click", this.toggleAccordion);
+      dt.addEventListener("click", () => this.toggleAccordion(dt));
     });
   }
 

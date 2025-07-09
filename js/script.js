@@ -13,7 +13,7 @@ import ScrollSuave from "./modules/scroll-suave.js";
 const scrollSuave = new ScrollSuave("[data-menu='suave'] a[href^='#']");
 scrollSuave.init();
 
-const accordion = new AccordionList();
+const accordion = new AccordionList(".js-accordion dt");
 accordion.init();
 
 initModal();
