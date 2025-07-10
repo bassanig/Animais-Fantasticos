@@ -23,6 +23,7 @@ export default class initTabMenu {
     if (this.tabcontent.length && this.tabcontent.length) {
       this.activeTab(0);
       this.addEventListeners();
+      return this;
     }
   }
 }
