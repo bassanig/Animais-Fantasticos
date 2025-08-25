@@ -1,21 +1,19 @@
-import js from "@eslint/js";
-import globals from "globals";
-import prettierPlugin from "eslint-plugin-prettier";
-import { defineConfig } from "eslint/config";
-
-export default defineConfig([
+export default [
   {
-    files: ["**/*.{js,mjs,cjs}"],
-    plugins: {
-      js,
-      prettier: prettierPlugin,
-    },
-    extends: ["js/recommended"],
-    languageOptions: {
-      globals: globals.browser,
-    },
     rules: {
-      "prettier/prettier": "error",
+      // 'no-console': 'error'
+      indent: ['error', 2],
+      'keyword-spacing': 'error',
+      'no-multiple-empty-lines': 'error',
+      'eol-last': ['error', 'always'],
+      semi: ['error', 'always'],
+      'no-trailing-spaces': 'error',
+      'operator-assignment': 'error',
+      'no-inner-declarations': [
+        'error',
+        'functions',
+        { blockScopedFunctions: 'disallow' },
+      ],
     },
   },
-]);
+];
