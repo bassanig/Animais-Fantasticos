@@ -2,6 +2,9 @@ Animais Fantásticos
 
 Este projeto foi desenvolvido com JavaScript ES6+ para praticar conceitos modernos de programação voltados ao Front-End. O site apresenta uma experiência interativa com foco em animações, organização de código e boas práticas, explorando recursos do JS Assíncrono, OOP, Regex e manipulação do DOM.
 
+<img width="1901" height="950" alt="image" src="https://github.com/user-attachments/assets/11eef389-aa86-4d74-81a8-57f5a70637c0" />
+
+
 # Funcionalidades
 
 - Animação de números com contagem dinâmica
@@ -36,6 +39,6 @@ cd Animais-fantasticos
 Deploy
 
 O projeto está disponível em:
-Animais Fantásticos – GitHub Pages
+[Animais Fantásticos](https://bassanig.github.io/Animais-Fantasticos/) – GitHub Pages
 
 Desenvolvido por Guilherme Bassani durante estudos de JavaScript ES6+ com foco em Front-End.
