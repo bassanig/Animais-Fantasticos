@@ -4,8 +4,6 @@ Projeto desenvolvido com JavaScript ES6+ para praticar conceitos modernos de pro
 
 O site apresenta uma experiência interativa com foco em animações, organização de código e boas práticas, explorando recursos do JS Assíncrono, OOP, Regex e manipulação do DOM.
 
-<img width="1903" height="947" alt="image" src="https://github.com/user-attachments/assets/4ca5bd58-fcc3-403a-9d75-79c686365c63" />
-
 Funcionalidades
 
 Animação de números com contagem dinâmica
@@ -27,8 +25,6 @@ JavaScript ES6+
 HTML5
 
 CSS3
-
-<img width="1902" height="948" alt="image" src="https://github.com/user-attachments/assets/5625dca4-e37b-4782-86af-8013f6ed6832" />
 
 Como rodar localmente
 
