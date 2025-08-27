@@ -2,27 +2,27 @@ Animais Fantásticos
 
 Este projeto foi desenvolvido com JavaScript ES6+ para praticar conceitos modernos de programação voltados ao Front-End. O site apresenta uma experiência interativa com foco em animações, organização de código e boas práticas, explorando recursos do JS Assíncrono, OOP, Regex e manipulação do DOM.
 
-Funcionalidades
+# Funcionalidades
 
-Animação de números com contagem dinâmica
+- Animação de números com contagem dinâmica
 
-Lista interativa de animais exibida via JavaScript
+- Lista interativa de animais exibida via JavaScript
 
-Código organizado em módulos ES6
+- Código organizado em módulos ES6
 
-Requisições assíncronas (fetch API) para carregar dados externos
+- Requisições assíncronas (fetch API) para carregar dados externos
 
-Uso de Regex para validações
+- Uso de Regex para validações
 
-Layout responsivo e otimizado para mobile e desktop
+- Layout responsivo e otimizado para mobile e desktop
 
-Tecnologias
+# Tecnologias
 
-JavaScript ES6+
+- JavaScript ES6+
 
-HTML5
+- HTML5
 
-CSS3
+- CSS3
 
 Como rodar localmente
 # clonar o repositório
