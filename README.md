@@ -27,6 +27,9 @@ Este projeto foi desenvolvido com JavaScript ES6+ para praticar conceitos modern
 
 - CSS3
 
+<img width="1905" height="951" alt="image" src="https://github.com/user-attachments/assets/b19f2cbb-b8e2-46b3-a33c-2a82fed02a98" />
+
+
 Como rodar localmente
 # clonar o repositório
 git clone https://github.com/seu-usuario/Animais-fantasticos.git
