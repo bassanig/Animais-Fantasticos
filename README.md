@@ -32,13 +32,13 @@ Este projeto foi desenvolvido com JavaScript ES6+ para praticar conceitos modern
 
 # Como rodar localmente
 
-clonar o repositório
+clonar o repositório:
 
-git clone https://github.com/seu-usuario/Animais-fantasticos.git
+  git clone https://github.com/seu-usuario/Animais-fantasticos.git
 
-entrar na pasta
+entrar na pasta:
 
-cd Animais-fantasticos
+  cd Animais-fantasticos
 
 abrir no navegador (com Live Server)
 
