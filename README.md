@@ -1,8 +1,6 @@
 Animais Fantásticos
 
-Projeto desenvolvido com JavaScript ES6+ para praticar conceitos modernos de programação voltados ao Front-End.
-
-O site apresenta uma experiência interativa com foco em animações, organização de código e boas práticas, explorando recursos do JS Assíncrono, OOP, Regex e manipulação do DOM.
+Este projeto foi desenvolvido com JavaScript ES6+ para praticar conceitos modernos de programação voltados ao Front-End. O site apresenta uma experiência interativa com foco em animações, organização de código e boas práticas, explorando recursos do JS Assíncrono, OOP, Regex e manipulação do DOM.
 
 Funcionalidades
 
@@ -27,9 +25,6 @@ HTML5
 CSS3
 
 Como rodar localmente
-
-Clone o repositório e abra o arquivo index.html em seu navegador, ou utilize uma extensão como o Live Server (VSCode):
-
 # clonar o repositório
 git clone https://github.com/seu-usuario/Animais-fantasticos.git
 
@@ -40,8 +35,7 @@ cd Animais-fantasticos
 
 Deploy
 
-O projeto pode ser acessado em: Animais Fantásticos – GitHub Pages
-
-Autor
+O projeto está disponível em:
+Animais Fantásticos – GitHub Pages
 
 Desenvolvido por Guilherme Bassani durante estudos de JavaScript ES6+ com foco em Front-End.
