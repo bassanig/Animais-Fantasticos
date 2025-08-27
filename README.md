@@ -40,8 +40,7 @@ cd Animais-fantasticos
 
 Deploy
 
-O projeto pode ser acessado em:
-Animais Fantásticos – GitHub Pages
+O projeto pode ser acessado em: Animais Fantásticos – GitHub Pages
 
 Autor
 
