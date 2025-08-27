@@ -1,4 +1,4 @@
-Animais Fantásticos
+## Animais Fantásticos
 
 Este projeto foi desenvolvido com JavaScript ES6+ para praticar conceitos modernos de programação voltados ao Front-End. O site apresenta uma experiência interativa com foco em animações, organização de código e boas práticas, explorando recursos do JS Assíncrono, OOP, Regex e manipulação do DOM.
 
@@ -30,7 +30,8 @@ Este projeto foi desenvolvido com JavaScript ES6+ para praticar conceitos modern
 <img width="1905" height="951" alt="image" src="https://github.com/user-attachments/assets/b19f2cbb-b8e2-46b3-a33c-2a82fed02a98" />
 
 
-Como rodar localmente
+# Como rodar localmente
+
 # clonar o repositório
 git clone https://github.com/seu-usuario/Animais-fantasticos.git
 
