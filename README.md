@@ -3,6 +3,7 @@ Animais Fantásticos
 Projeto desenvolvido com JavaScript ES6+ para praticar conceitos modernos de programação voltados ao Front-End.
 
 O site apresenta uma experiência interativa com foco em animações, organização de código e boas práticas, explorando recursos do JS Assíncrono, OOP, Regex e manipulação do DOM.
+
 <img width="1903" height="947" alt="image" src="https://github.com/user-attachments/assets/4ca5bd58-fcc3-403a-9d75-79c686365c63" />
 
 Funcionalidades
