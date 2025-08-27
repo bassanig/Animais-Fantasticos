@@ -42,7 +42,7 @@ cd Animais-fantasticos
 
 abrir no navegador (com Live Server)
 
-Deploy
+# Deploy
 
 O projeto está disponível em:
 [Animais Fantásticos](https://bassanig.github.io/Animais-Fantasticos/) – GitHub Pages
